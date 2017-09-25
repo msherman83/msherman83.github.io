@@ -9,7 +9,7 @@
     <link rel="stylesheet" content="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
-    <title>Mike's Web Development Portfolio</title>
+    <title>Mike's Web Development Portfolio | Contact</title>
 </head>
 
 <body>
@@ -20,29 +20,32 @@
             </div>
             <nav>
                 <ul>
-                    <li class="nav-links"><a class="active" href="index.html">ABOUT</a></li>
+                    <li class="nav-links"><a href="index.html">ABOUT</a></li>
                     <li class="nav-links"><a href="portfolio.html">PORTFOLIO</a></li>
-                    <li class="nav-links"><a href="contact.html">CONTACT</a></li>
+                    <li class="nav-links"><a class="active" href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section>
-        <div class="banner-image-about">
-            <h2 class="image-text">Web Design and Development</h2>
-        </div>
+        <!-- <div class="banner-image">
+            <h2>Web Design and Development</h2>
+        </div> -->
         <div class="container">
-            <div class="about">
-                <h1>About Me</h1>
+            <div class="contact">
+                <h1>Contact Me</h1>
                 <hr>
-                <img class="about-image" src="./assets/img/me.jpg" alt="Picture of Mike Sherman">
-                <p>Welcome to my portfolio page! My name is Mike Sherman. I am an entry level web developer living in Portsmouth,
-                    NH. I enjoy toying around with technology and seeing how things tick. I have spent the majority of my
-                    life tinkering with hardware or software in one form or another. After many years of interest and self
-                    study, I have finally decided to take the plunge into web design and development.
-                </p>
-                <p>This site will showcase some of my best work and provide a glimpse into my current and completed projects.</p>
+                <form>
+                    <label>Name:</label>
+                    <input type="text" name="name" placeholder="Bob"><br>
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="bobsmith@gmail.com"><br>
+                    <label>Message:</label>
+                    <textarea name="message" name="text" rows="10">
+                    </textarea><br>
+                    <input type="submit" onclick="alert('STOP CLICKING!')" value="Submit">
+                </form>
             </div>
             <div class="connect-container">
                 <div class="connect">
